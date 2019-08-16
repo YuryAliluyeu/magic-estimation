@@ -1,17 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MEGIC Estimation</title>
-	<script type="text/javascript" src="lib.js"></script>
+	<title>MAGIC Estimation</title>
+	<style type="text/css">
+		div {
+			padding: 5px;
+		}
+		label {
+			display: inline-block;
+			min-width: 100px;
+		}
+	</style>
 </head>
 <body>
-	<select>
-		<option>XS</option>
-		<option>S</option>
-		<option>M</option>
-		<option>L</option>
-		<option>XL</option>
-		<option>XXL</option>
-	</select>
+	<div>
+		<label>QA: </label>
+		<select>
+			<option value="0">---</option>
+			<option value="1">XS</option>
+			<option value="10">S</option>
+			<option>M</option>
+			<option>L</option>
+			<option>XL</option>
+			<option>XXL</option>
+		</select>
+	</div>
+	<div>
+		<label>BackEnd: </label>
+		<select>
+			<option value="0">---</option>
+			<option value="1">XS</option>
+			<option value="10">S</option>
+			<option>M</option>
+			<option>L</option>
+			<option>XL</option>
+			<option>XXL</option>
+		</select>
+	</div>
+	<div>
+		<label>UI: </label>
+		<select>
+			<option value="0">---</option>
+			<option value="1">XS</option>
+			<option value="10">S</option>
+			<option>M</option>
+			<option>L</option>
+			<option>XL</option>
+			<option>XXL</option>
+		</select>
+	</div>
+	<div>
+		<label>AEM: </label>
+		<select>
+			<option value="0">---</option>
+			<option value="1">XS</option>
+			<option value="10">S</option>
+			<option>M</option>
+			<option>L</option>
+			<option>XL</option>
+			<option>XXL</option>
+		</select>
+	</div>
+	<div>
+		<label>Result Estimation: <span class="result">0</span> Story Point(s)</label>
+	</div>
+	<script type="text/javascript" src="lib.js"></script>
 </body>
 </html>
